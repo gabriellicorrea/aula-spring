@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import br.fatec.financasspring.model.Conta;
 
 @Repository
-public class ContaRepository extends JpaRepository<Conta, Long> {
+public interface ContaRepository extends JpaRepository<Conta, Long> {
 
 }
